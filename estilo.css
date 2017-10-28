@@ -88,35 +88,33 @@ p {
     font-weight: bold;
 
     text-align: center;
-
 }
-progress {
 
-    width: 70%;
+table {
 
-    height: 20px;
+    width: 100%;
 
-    color: #3fb6b2;
-
-    background: #efefef;
+    font-size: 11pt;
 
 }
 
-progress::-webkit-progress-bar {
+table, th, td {
 
-    background: #efefef;
+    border: 2px solid #cecece;
+
+    border-collapse: collapse;
+
+    text-align: center;
+
+    table-layout: fixed;
 
 }
 
-progress::-webkit-progress-value {
+.selected {
 
-    background: #3fb6b2;
+    background-color: #f36f48;
 
-} 
+    font-weight: bold;
 
-progress::-moz-progress-bar {
-
-    color: #3fb6b2;
-
-    background: #efefef;
+    color: white;
 }
